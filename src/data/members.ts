@@ -55,7 +55,7 @@ export const staffCoordinators: Leadership[] = [
     linkedin: "",
   },
   {
-    name: "Pof.Dharmaprakesh V",
+    name: "Prof.Dharmaprakesh V",
     designation: "Faculty Coordinator",
     department: "CSE",
     photo: "/members/leaders/staff3.jpg",
