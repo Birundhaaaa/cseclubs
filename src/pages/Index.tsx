@@ -53,33 +53,31 @@ const Index = () => {
   return (
     <div className="relative">
       <section className="relative flex min-h-[calc(100vh-5rem)] items-center justify-center overflow-hidden circuit-bg">
-        <div className="absolute top-0 left-0 right-0 z-20 px-3 sm:px-5 md:px-8 lg:px-12 xl:px-16">
-  <div className="flex items-center justify-between flex-wrap gap-y-2">
+        <div className="absolute left-0 right-0 top-0 z-20 px-3 pt-3 sm:px-5 sm:pt-4 md:px-8 lg:px-12 xl:px-16">
+          <div className="flex w-full items-start justify-between">
+            <div className="flex min-w-0 flex-1 items-center justify-start">
+              <img
+                src="/peri logo.png"
+                alt="Peri logo"
+                className="h-16 w-16 object-contain brightness-110 contrast-110 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 xl:h-36 xl:w-36"
+              />
+            </div>
 
-    {/* PERI Logo */}
-    <img
-      src="/peri logo.png"
-      alt="Peri logo"
-      className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36 xl:h-40 xl:w-40 object-contain brightness-110 contrast-110"
-    />
+            <div className="flex min-w-0 flex-1 items-center justify-end gap-1 sm:gap-2 md:flex-none md:gap-1.5 lg:gap-2">
+              <img
+                src="/cklogo.png"
+                alt="Cyber Knights logo"
+                className="h-16 w-16 object-contain brightness-110 contrast-110 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 xl:h-36 xl:w-36"
+              />
 
-    {/* CK + SS Logos */}
-    <div className="flex items-center gap-1 sm:gap-2 md:gap-4 lg:gap-6">
-      <img
-        src="/cklogo.png"
-        alt="Cyber Knights logo"
-        className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36 xl:h-40 xl:w-40 object-contain brightness-110 contrast-110"
-      />
-
-      <img
-        src="/sslogo.png"
-        alt="Script Soldiers logo"
-        className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36 xl:h-40 xl:w-40 object-contain brightness-110 contrast-110"
-      />
-    </div>
-
-  </div>
-</div>
+              <img
+                src="/sslogo.png"
+                alt="Script Soldiers logo"
+                className="h-16 w-16 object-contain brightness-110 contrast-110 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 xl:h-36 xl:w-36"
+              />
+            </div>
+          </div>
+        </div>
 
         <div className="absolute inset-0 bg-background/70" />
 
@@ -99,17 +97,17 @@ const Index = () => {
           ))}
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 py-16 text-center sm:px-6 sm:py-20 lg:py-24">
+        <div className="relative z-10 container mx-auto px-4 pb-16 pt-24 text-center sm:px-6 sm:pb-20 sm:pt-32 md:py-20 lg:py-24">
           <motion.p
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 font-heading text-[10px] uppercase tracking-[0.28em] text-primary sm:mb-8 sm:text-xs md:text-sm md:tracking-[0.4em]"
+            className="mb-3 font-heading text-[10px] uppercase tracking-[0.28em] text-primary sm:mb-5 sm:text-xs md:mb-8 md:text-sm md:tracking-[0.4em]"
           >
             Department of Computer Science & Engineering
           </motion.p>
 
-          <div className="relative mx-auto h-[220px] w-full max-w-[980px] sm:h-[280px] md:h-[340px]">
+          <div className="relative mx-auto h-[200px] w-full max-w-[980px] sm:h-[250px] md:h-[340px]">
             <div ref={titleRef} className="absolute left-1/2 top-1/2 w-fit -translate-x-1/2 -translate-y-1/2">
               <div className="relative grid w-fit grid-cols-[auto_auto] gap-x-3 gap-y-3 sm:gap-x-4 md:gap-x-5 md:gap-y-5">
                 <span
