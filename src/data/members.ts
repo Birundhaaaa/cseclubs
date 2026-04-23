@@ -41,21 +41,21 @@ export const leaders: Leadership[] = [
 
 export const staffCoordinators: Leadership[] = [
   {
-    name: "Duraimurugan S",
+    name: "Prof.Duraimurugan S",
     designation: "Faculty Coordinator",
     department: "CSE",
     photo: "/members/leaders/staff1.jpg",
     linkedin: "",
   },
   {
-    name: "Divya M",
+    name: "Prof.Divya M",
     designation: "Faculty Coordinator",
     department: "CSE",
     photo: "/members/leaders/staff2.jpg",
     linkedin: "",
   },
   {
-    name: "Dharmaprakesh",
+    name: "Pof.Dharmaprakesh V",
     designation: "Faculty Coordinator",
     department: "CSE",
     photo: "/members/leaders/staff3.jpg",
